@@ -1,0 +1,52 @@
+#hashes operate like dictionaries... they hold  keys which are like wordsin the dictionary and those keys have a value which is like their definition
+# in an array the keys are numbers (0, 1, yeah) ... this is diffrent than a 
+
+celeb_crush = {} #empty_hash 
+#here you create your first key and value
+celeb_crush ["Paige"] = "John Krasinski"
+
+#puts celeb_crush (this prints both the key and the value )
+
+#puts celeb_crush["Paige"] #this prints just the value
+
+#way 1 to add to your hash 
+human_name = "Coco"
+crush = dylan o'brien
+celeb_crush[human_name] = crush
+
+#way 2 to add to your hash 
+celeb_crush[Coco] = dylan o'brien
+
+class_celeb_crush {
+"Coco" => "Dylan O'Brien"
+"persia" => cole sprouse
+"val" => cole sprouse
+brenda => jungkook
+alysa => dylan sprouse
+raylene => james stewart
+siri => teenage harrison ford
+caitlin => young joey tribbiani
+alex => jim halpert
+mckenna => chris hemsworth
+selin => theo james 
+paige => John Krasinski
+}
+
+puts class_celeb_crush
+
+puts class_celeb_crush.keys
+puts class_celeb_crush.values
+
+# creates an array of keys/values  ans assign it to a vairiable 
+student_names = class_celeb_crush.keys
+crushes =n class_celeb_crush.values
+#puts crushes 
+
+# iterates through the hash 
+class_celeb_crush.each do |student_names, crushes|
+  puts "#{student_names}'s celeb crush is #{crushes}"
+  puts ""
+end
+
+names = ["jady", "michelle",]
+

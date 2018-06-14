@@ -1,10 +1,9 @@
-# Hello World
+  # Hello World
 
 ## Overview
 
 We're going to make a file that will print ["Hello World!"](http://en.wikipedia.org/wiki/%22Hello,_World!%22_program) to your terminal.
 
-## Objectives
 
 1. Create a new Ruby file.
 2. Write syntactically valid code to produce "Hello World!"
